@@ -9,12 +9,8 @@ public class Car {
         this.speed = speed;
     }
 
-    public String getCompany() {
-        return "This car is from "+company;
-    }
-
     public void getSpeed() {
-        System.out.println("The car's speed is " + speed + "Km/hr.");
+        System.out.println("The car's speed is " + speed + "Km/hr. It is from "+company);
     }
 
 }
